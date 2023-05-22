@@ -7,7 +7,7 @@
 /*
 What we have done? Usage of some UI components. These are Share property with a button, progressBar with textField and switch for change theme.
 
-SHARE PROPERTY
+SHARE PROPERTY -UIActivityViewController-
  * if you want to set up auto adjusting line count according to inside text,you should set up 0 to line in the storyboard.
  * the way of the share property, you gotta create UIActivityViewController like alert. Check the shareButtonAction and comments.
  * if you want to check action, go to the message app and just paste it. you will see :)
@@ -15,8 +15,10 @@ SHARE PROPERTY
 SWITCH USAGE
  * we have added the switch from library on storyboard. Also, we have added the a button for show to how to reach switch from button.
  
+INDICATOR USAGE
+
 PROGRESS BAR WITH TEXTFIELD
- 
+ * added the UITextFieldDelegate 
 
 */
 import UIKit
